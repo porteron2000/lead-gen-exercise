@@ -1,0 +1,15 @@
+{
+  "name": "lead-nurture-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple UI: upload leads.xlsx, run the score/research/draft pipeline, download .eml files.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "express": "^4.19.2",
+    "multer": "^2.0.0",
+    "exceljs": "^4.4.0"
+  }
+}

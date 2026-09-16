@@ -1,6 +1,7 @@
 .env
 .DS_Store
 .vscode/
+node_modules/
 
 # Generated from leads.xlsx at the start of each "process the leads" run
 leads.json
