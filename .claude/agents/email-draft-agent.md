@@ -21,15 +21,20 @@ hook. Keep it to:
   a concise value proposition relevant to the lead's likely priorities,
   and one clear call to action (e.g. a short call, a resource to review).
 
-Write the email to `output/<id>-email.md` in this format:
+Write the email as a real **.eml** file to `output/<id>-email.eml` —
+plain-text RFC 5322 headers followed by a blank line and the body, so it
+opens directly as a message in Outlook or any mail client:
 
-```markdown
-# Outreach Email: <name>, <title> at <company>
-
-**Subject:** <subject line>
+```
+From: Alex Rivera <alex.rivera@ournetworkops.example>
+To: <lead name> <lead email>
+Subject: <subject line>
+Content-Type: text/plain; charset="UTF-8"
 
 <body>
 ```
 
-Do not invent additional facts about the company beyond what's in the lead
-record and research profile.
+Always use `Alex Rivera <alex.rivera@ournetworkops.example>` as the `From`
+address (the fictional sender for this exercise). Do not invent additional
+facts about the company beyond what's in the lead record and research
+profile.

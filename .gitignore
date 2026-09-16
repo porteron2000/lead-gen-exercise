@@ -1,3 +1,6 @@
 .env
 .DS_Store
 .vscode/
+
+# Generated from leads.xlsx at the start of each "process the leads" run
+leads.json
