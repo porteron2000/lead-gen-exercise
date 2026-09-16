@@ -4,6 +4,7 @@
     "name": "Priya Nandakumar",
     "title": "VP of Network Operations",
     "company": "Meridian Telecom (fictional)",
+    "company_size": "enterprise",
     "email": "priya.nandakumar@meridiantelecom.example",
     "status": "new"
   },
@@ -12,6 +13,7 @@
     "name": "Marcus Whitfield",
     "title": "Director of Digital Transformation",
     "company": "Cobalt Wireless (fictional)",
+    "company_size": "mid-market",
     "email": "marcus.whitfield@cobaltwireless.example",
     "status": "new"
   },
@@ -20,6 +22,7 @@
     "name": "Elena Voss",
     "title": "Chief Technology Officer",
     "company": "Northgate Communications (fictional)",
+    "company_size": "enterprise",
     "email": "elena.voss@northgatecomms.example",
     "status": "new"
   },
@@ -28,6 +31,7 @@
     "name": "Tomas Herrera",
     "title": "VP of Customer Experience",
     "company": "Solstice Mobile (fictional)",
+    "company_size": "smb",
     "email": "tomas.herrera@solsticemobile.example",
     "status": "new"
   },
@@ -36,6 +40,7 @@
     "name": "Aisha Rahman",
     "title": "Head of Network Engineering",
     "company": "Vantage Telecom Group (fictional)",
+    "company_size": "mid-market",
     "email": "aisha.rahman@vantagetelecom.example",
     "status": "new"
   }
